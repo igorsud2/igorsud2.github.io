@@ -14,7 +14,7 @@ body {
 }
 
 #relexcat {
-    border: 30px solid;
+    border: 15px solid;
     border-radius: 70px;
     border-top-color: rgb(96, 143, 204);
     border-bottom-color: rgb(96, 143, 204);
@@ -57,4 +57,8 @@ ul {
 .catcolor:hover {
     text-decoration: none;
     color: red;
+}
+.kkg {
+    font-size: 20px;
+
 }
