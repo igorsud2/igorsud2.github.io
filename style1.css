@@ -19,8 +19,7 @@ body {              /* ТЕЛО */
     border-bottom-color: rgb(96, 143, 204);
     border-left-color:red;
     border-right-color: green;
-    box-shadow: 10px 5px 5px rgb(9, 80, 161);
-    margin-top: 25px;
+    box-shadow: 15px 7px 7px rgb(9, 80, 161);
     margin: 20px;
 }
 .sizetext3 {                /* Размер */
