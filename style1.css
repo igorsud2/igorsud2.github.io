@@ -1,38 +1,40 @@
-body {
+body {              /* ТЕЛО */
     background-color: #606060;
     margin-bottom: 200px;
 }
-.catcolor {
+.catcolor {              /* Цвет ссылки */
     color: violet;
     text-decoration: none;
-    
-
+    padding-bottom: 40px;
 }
-#all {
+#all {                       /* общий блок */
     margin-left: 200px;
 
 }
 
-#relexcat {
+#relexcat {                 /* Картинка */
     border: 15px solid;
     border-radius: 70px;
     border-top-color: rgb(96, 143, 204);
     border-bottom-color: rgb(96, 143, 204);
     border-left-color:red;
     border-right-color: green;
+    box-shadow: 10px 5px 5px rgb(9, 80, 161);
+    margin-top: 25px;
+    margin: 20px;
 }
-.colortext {
+.sizetext3 {                /* Размер */
     font-size: 23px;
 }
-.wrapper {
+.wrapper {                  /* Css grid */
    display: grid;
    grid-template-columns: 100px 100px 180px 100px;
    grid-gap: 6%;
    font-size: 19px;
    font-family: Arial;
-   
+   text-align: center;
 }
-.box{
+.box{            /* свойство ящиков */               
     border: 1px solid; 
     padding: 10px;
     background:#608fcc;
@@ -43,22 +45,18 @@ h2 {
 h3{
     font-family: Arial;
 }
-ul {
+ul {                    /* Таблица */
     font-family: Arial;
     font-size: 17px;
 }
-.catcolor2 {
+.catcolor2 {            /* Цвет текста */
     color: pink;
     text-decoration: none;
-    
-
 }
- 
-.catcolor:hover {
+.catcolor:hover {         /* При наведении на ссылку */
     text-decoration: none;
     color: red;
 }
-.kkg {
+.textsize {                /* Размер */
     font-size: 20px;
-
 }
